@@ -36,5 +36,25 @@ public class Main {
         meuAluno.nome = "Akemi";
         meuAluno.idade = 18;
         meuAluno.exibeInformacoes();
+
+        IdadePessoa idadePessoa = new IdadePessoa();
+        idadePessoa.setName("Rhuan");
+        idadePessoa.setAge(19);
+        if(idadePessoa.verifyAge(idadePessoa.getAge())){
+            System.out.println("É maior de idade");
+        } else {
+            System.out.println("É menor de idade");
+        }
+
+        Produto produto = new Produto();
+        produto.setProductName("Camisa");
+        produto.setProductValue(53.99F);
+        produto.applyDiscount(25);
+        System.out.println(produto.getProductValue());
+
+        Student student = new Student();
+        student.setName("Raulzitos");
+        student.setGrades(35F);
+        System.out.println(student.calculateAvarage(5));
     }
 }
