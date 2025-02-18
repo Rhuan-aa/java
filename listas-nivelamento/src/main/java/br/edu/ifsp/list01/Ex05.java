@@ -1,5 +1,7 @@
 package br.edu.ifsp.list01;
 
+import java.util.Locale;
+
 /*
     A avenida principal da cidade de Algoritmopolis possui limite de velocidade de L km/h.
     Se o motorista ultrapassar essa velocidade, é aplicado uma multa de R$ M, mais R$ A
@@ -29,8 +31,14 @@ public class Ex05 {
     }
 
     String compute(int L, double m, double a, int v) {
-        String output =  null;
-        //put your logic here
+        String output = null;
+        double carFine = 0;
+
+        if (v > L) {
+            carFine = m + (a*(v - L));
+        }
+
+        output =  String.format(Locale.US, "%.2f", carFine);
         return output;
     }
 }

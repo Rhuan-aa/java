@@ -2,7 +2,7 @@ package br.edu.ifsp.list01;
 
 /*
     Você está na Austrália treinando cangurus para se locomoverem em linha reta. Você quer saber se dois cangurus
-    estarão na mesma posição em um determinado tempo, dado a posição inicial de cada canguru e qual a distância que
+    estarão na mesma posição num determinado tempo, dado a posição inicial de cada canguru e qual a distância que
     eles saltam. Como você sabe programar muito bem, você decidiu fazer um programa para isso. Seu programa deve ler:
      - A posição inicial X1 e a distância do pulo V1 do primeiro canguru.
      - A posição inicial X2 e a distância do pulo V2 do segundo canguru.
@@ -32,8 +32,10 @@ public class Ex10 {
     }
 
     String compute(int x1, int v1, int x2, int v2) {
-        String output = null;
-        //put your logic here
-        return output;
+        if (v1 == v2) return "NAO";
+
+        if ((x1-x2)%(v2-v1) == 0 && (x1-x2)/(v2-v1) > 0) return "SIM";
+
+        return "NAO";
     }
 }

@@ -1,5 +1,7 @@
 package br.edu.ifsp.list01;
 
+import java.util.Locale;
+
 /*
     Sabe-se que uma lata de tinta tem um custo C e é capaz de pintar uma área de M metros quadrados.
     Faça um programa que leia a largura L, a altura A de uma parede, o valor C de uma lata de tinta e
@@ -29,7 +31,15 @@ public class Ex06 {
 
     String compute(double L, double a, double c, double m) {
         String output = null;
-        //put your logic here
+        double area = L*a, cost = 0;
+        int cans = 0;
+
+        if (area > 0) {
+            cans = (int) Math.ceil(area/m);
+            cost = c * cans;
+        }
+
+        output =  String.format(Locale.US, "%d %.2f", cans, cost);
         return output;
     }
 }

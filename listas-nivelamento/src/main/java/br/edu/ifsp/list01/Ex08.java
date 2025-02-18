@@ -29,7 +29,15 @@ public class Ex08 {
 
     int compute(int n, int c) {
         int output = -1;
-        //put your logic here
+        int cost = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (i >= c) cost++;
+            else cost += c - i;
+        }
+
+        output = cost;
+
         return output;
     }
 }
