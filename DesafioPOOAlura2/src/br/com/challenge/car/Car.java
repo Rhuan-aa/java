@@ -50,12 +50,26 @@ public class Car {
         this.modelBrand = modelBrand;
     }
 
+    public void setPriceOfYear1(double priceOfYear1) {
+        this.priceOfYear1 = priceOfYear1;
+    }
+
+    public void setPriceOfYear2(double priceOfYear2) {
+        this.priceOfYear2 = priceOfYear2;
+    }
+
+    public void setPriceOfYear3(double priceOfYear3) {
+        this.priceOfYear3 = priceOfYear3;
+    }
+
     public double calculateSmallestPrice(){
         double smallestPrice = priceOfYear1;
 
         if (smallestPrice > priceOfYear2){
             smallestPrice = priceOfYear2;
-        } else if (smallestPrice > priceOfYear3) {
+        }
+
+        if (smallestPrice > priceOfYear3) {
             smallestPrice = priceOfYear3;
         }
 
@@ -67,7 +81,9 @@ public class Car {
 
         if (highestPrice < priceOfYear2){
             highestPrice = priceOfYear2;
-        } else if (highestPrice < priceOfYear3) {
+        }
+
+        if (highestPrice < priceOfYear3) {
             highestPrice = priceOfYear3;
         }
 

@@ -5,6 +5,9 @@ public class CarModel extends Car{
         defineModel(name);
         setRealeseYear(releaseYear);
         setModelBrand(modelBrand);
+        setPriceOfYear1(price1);
+        setPriceOfYear2(price2);
+        setPriceOfYear3(price3);
         showTecnicalSheet();
     }
 }
