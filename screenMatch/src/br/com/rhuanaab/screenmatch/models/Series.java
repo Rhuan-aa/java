@@ -1,6 +1,8 @@
 package br.com.rhuanaab.screenmatch.models;
 
-public class Series extends Title{
+import br.com.rhuanaab.screenmatch.calculations.Classifiable;
+
+public class Series extends Title implements Classifiable {
     private int seasons;
     private boolean active;
     private int episodesPerSeason;
@@ -41,5 +43,9 @@ public class Series extends Title{
     @Override
     public int getDurationInMinutes() {
         return seasons * episodesPerSeason * minutesPerEpisode;
+    }
+
+    public int getClassification() {
+        return (int) ratingScore() / 2;
     }
 }

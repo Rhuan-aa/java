@@ -1,4 +1,6 @@
+import br.com.rhuanaab.screenmatch.calculations.RecommendationFilter;
 import br.com.rhuanaab.screenmatch.calculations.TimeCalculator;
+import br.com.rhuanaab.screenmatch.models.Episode;
 import br.com.rhuanaab.screenmatch.models.Movie;
 import br.com.rhuanaab.screenmatch.models.Series;
 
@@ -33,6 +35,16 @@ public class Main {
         calculator.include(myOtherMovie);
         calculator.include(lost);
         System.out.println(calculator.getTotalTime());
+
+        RecommendationFilter filter = new RecommendationFilter();
+        filter.filter(myMovie);
+
+        Episode episode = new Episode();
+        episode.setNumber(1);
+        episode.setSeries(String.valueOf(lost));
+        episode.setTotalViews(300);
+        filter.filter(lost);
+
     }
 }
 
