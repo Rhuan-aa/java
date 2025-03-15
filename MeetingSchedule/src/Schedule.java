@@ -37,7 +37,7 @@ public class Schedule {
     public double percentageSpentInMeetings(){
         if (!meetings.isEmpty()){
             long meetingsTime = 0L;
-            long totalTimeInMinutes = Duration.between(startTime, endTime).toMinutes();
+            long totalTimeInMinutes = Duration.ofDays(1).toMinutes();
 
             for (Meeting meet : meetings) {
                 meetingsTime += meet.durationInMinutes();
