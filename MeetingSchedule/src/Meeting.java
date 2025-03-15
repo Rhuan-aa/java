@@ -5,7 +5,6 @@ public class Meeting {
     private String description;
     private LocalTime startTime;
     private LocalTime endTime;
-    private Schedule schedule;
 
     public long durationInMinutes(){
         if (startTime == null ||  endTime == null) return 0;
@@ -28,13 +27,5 @@ public class Meeting {
 
     public String getDescription() {
         return description;
-    }
-
-    public Schedule getSchedule() {
-        return schedule;
-    }
-
-    public void setSchedule(Schedule schedule) {
-        this.schedule = schedule;
     }
 }

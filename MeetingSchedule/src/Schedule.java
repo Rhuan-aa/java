@@ -60,4 +60,16 @@ public class Schedule {
 
         return schedule.toString();
     }
+
+    public LocalDate getDay() {
+        return day;
+    }
+
+    public LocalTime getStartTime() {
+        return startTime;
+    }
+
+    public LocalTime getEndTime() {
+        return endTime;
+    }
 }
