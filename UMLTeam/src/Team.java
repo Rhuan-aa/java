@@ -3,8 +3,11 @@ public class Team {
     private String baseLocation;
     private String coachName;
     private Player captain;
-    private Player[] players = new Player[18];
+    private final Player[] players = new Player[18];
     private int numberOfPlayers = 0;
+    private final Player[] fieldedPlayers = new Player[11];
+    private final Player[] outfieldedPlayers = new Player[7];
+
 
     public Team(String name, String baseLocation, String coachName) {
         this.name = name;
@@ -33,7 +36,8 @@ public class Team {
     }
 
     public void substitute(Player substitute, Player starter) {
-        if (substitute.getTeam() == starter.getTeam()) {
+
+        if (substitute.getTeam().equals(this) && starter.getTeam().equals(this)) {
             substitute.setFielded(true);
             starter.setFielded(false);
         }
@@ -43,41 +47,28 @@ public class Team {
         this.captain = captain;
     }
 
-    public Player[] getFieldedPlayers() {
+    public void getPlayersComposition() {
         Player[] fieldedPlayers = new Player[11];
-        int count = 0;
+        Player[] outfieldedPlayers = new Player[7];
+
+        int countFielded = 0;
+        int countOutfielded = 0;
 
         for (int i = 0; i < numberOfPlayers; i++) {
             if (players[i] != null && players[i].isFielded()) {
-                fieldedPlayers[count] = players[i];
-                count++;
+                fieldedPlayers[countFielded++] = players[i];
+            }
+            if (players[i] != null && players[i].isFielded()) {
+                outfieldedPlayers[countOutfielded++] = players[i];
             }
         }
+    }
 
-        Player[] result = new Player[count];
-        for (int i = 0; i < count; i++) {
-            result[i] = fieldedPlayers[i];
-        }
-
-        return result;
+    public Player[] getFieldedPlayers() {
+        return fieldedPlayers;
     }
 
     public Player[] getOutfieldedPlayers() {
-        Player[] outfieldedPlayers = new Player[11];
-        int count = 0;
-
-        for (int i = 0; i < numberOfPlayers; i++) {
-            if (players[i] != null && !players[i].isFielded()) {
-                outfieldedPlayers[count] = players[i];
-                count++;
-            }
-        }
-
-        Player[] result = new Player[count];
-        for (int i = 0; i < count; i++) {
-            result[i] = outfieldedPlayers[i];
-        }
-
-        return result;
+        return outfieldedPlayers;
     }
 }

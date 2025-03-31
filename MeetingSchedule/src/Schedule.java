@@ -14,20 +14,25 @@ public class Schedule {
     }
 
     public void addMeeting(Meeting meeting){
-        boolean isAddable = !meeting.getStartTime().isBefore(startTime)
-                && !meeting.getEndTime().isAfter(endTime)
-                && !meeting.getStartTime().isAfter(endTime);
+        if (isOutsideWorkingTime(meeting)) return;
+        if (isMeetingOverlapping(meeting)) return;
 
+        meetings.add(meeting);
+    }
+
+    private boolean isMeetingOverlapping(Meeting meeting) {
         for (Meeting meet : meetings){
             if ((meeting.getStartTime().isBefore(meet.getEndTime()) && meeting.getEndTime().isAfter(meet.getStartTime()))
                     || meeting.getStartTime().equals(meet.getStartTime())
                     || meeting.getEndTime().equals(meet.getEndTime())) {
-                isAddable = false;
-                break;
+                return true;
             }
         }
+        return false;
+    }
 
-        if (isAddable) meetings.add(meeting);
+    private boolean isOutsideWorkingTime(Meeting meeting) {
+        return !meeting.getStartTime().isBefore(startTime) && !meeting.getEndTime().isAfter(endTime);
     }
 
     public void removeMeeting(Meeting meeting){

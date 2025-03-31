@@ -61,6 +61,8 @@ public class Main {
         System.out.println("First Movie: " + movieArray.get(0).getName());
         System.out.println(movieArray.get(0).toString());
         System.out.println(movieArray.toString());
+
+
     }
 }
 
