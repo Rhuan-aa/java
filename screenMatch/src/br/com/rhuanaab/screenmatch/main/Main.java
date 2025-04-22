@@ -1,3 +1,5 @@
+package br.com.rhuanaab.screenmatch.main;
+
 import br.com.rhuanaab.screenmatch.calculations.RecommendationFilter;
 import br.com.rhuanaab.screenmatch.calculations.TimeCalculator;
 import br.com.rhuanaab.screenmatch.models.Episode;
@@ -8,9 +10,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Movie myMovie = new Movie();
-        myMovie.setName("O Poderoso Chefão");
-        myMovie.setReleaseDate(1970);
+        Movie myMovie = new Movie("O Poderoso Chefão", 1970);
         myMovie.setDurationInMinutes(180);
         myMovie.showTecnicalSheet();
         myMovie.rate(8);
@@ -18,18 +18,14 @@ public class Main {
         myMovie.rate(10);
         System.out.println(myMovie.ratingScore());
 
-        Series lost = new Series();
-        lost.setName("Lost");
-        lost.setReleaseDate(2000);
+        Series lost = new Series("Lost", 2000);
         lost.showTecnicalSheet();
         lost.setSeasons(10);
         lost.setEpisodesPerSeason(10);
         lost.setMinutesPerEpisode(50);
         System.out.println("Duração de Lost: " + lost.getDurationInMinutes());
 
-        Movie myOtherMovie = new Movie();
-        myOtherMovie.setName("Avatar");
-        myOtherMovie.setReleaseDate(2023);
+        Movie myOtherMovie = new Movie("Avatar", 2023);
         myOtherMovie.setDurationInMinutes(200);
 
         TimeCalculator calculator = new TimeCalculator();
@@ -47,10 +43,8 @@ public class Main {
         episode.setTotalViews(300);
         filter.filter(lost);
 
-        Movie movie2 = new Movie();
-        movie2.setName("Dogville");
+        Movie movie2 = new Movie("Dogville",2003);
         movie2.setDurationInMinutes(200);
-        movie2.setReleaseDate(2003);
         movie2.rate(10);
 
         ArrayList<Movie> movieArray = new ArrayList<>();

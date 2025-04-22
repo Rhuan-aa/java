@@ -8,6 +8,10 @@ public class Series extends Title implements Classifiable {
     private int episodesPerSeason;
     private int minutesPerEpisode;
 
+    public Series(String name, int releaseDate) {
+        super(name, releaseDate);
+    }
+
     public int getSeasons() {
         return seasons;
     }

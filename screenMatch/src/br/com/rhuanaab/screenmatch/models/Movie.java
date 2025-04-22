@@ -5,6 +5,10 @@ import br.com.rhuanaab.screenmatch.calculations.Classifiable;
 public class Movie extends Title implements Classifiable {
     private String director;
 
+    public Movie(String name, int releaseDate) {
+        super(name, releaseDate);
+    }
+
     public String getDirector() {
         return director;
     }

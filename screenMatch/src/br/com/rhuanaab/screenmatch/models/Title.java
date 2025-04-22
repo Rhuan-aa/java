@@ -8,6 +8,11 @@ public class Title {
     private int numberOfReviews;
     private int durationInMinutes;
 
+    public Title(String name, int releaseDate) {
+        this.name = name;
+        this.releaseDate = releaseDate;
+    }
+
     public void showTecnicalSheet(){
         System.out.println("Nome do Filme: " + name);
         System.out.println("Ano de Lançamento: " + releaseDate);
