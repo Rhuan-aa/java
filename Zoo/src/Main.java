@@ -1,27 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        Animal[] jails = new Animal[10];
-        int index = 0;
+        Zoo zoo = new Zoo();
 
-        jails[index++] = new Lion();
-        jails[index++] = new Owl();
-        jails[index++] = new Lion();
-        jails[index++] = new Wolf();
-        jails[index++] = new Lion();
-        jails[index++] = new Wolf();
-        jails[index++] = new Owl();
-        jails[index++] = new Owl();
-        jails[index++] = new Owl();
-        jails[index++] = new Wolf();
+        zoo.allocateAnimal(new Lion());
+        zoo.allocateAnimal(new Lion());
+        zoo.allocateAnimal(new Wolf());
+        zoo.allocateAnimal(new Owl());
+        zoo.allocateAnimal(new Owl());
+        zoo.allocateAnimal(new Lion());
+        zoo.allocateAnimal(new Wolf());
+        zoo.allocateAnimal(new Wolf());
+        zoo.allocateAnimal(new Lion());
+        zoo.allocateAnimal(new Owl());
+        zoo.allocateAnimal(new Lion());
 
-        for (Animal animal : jails){
-            animal.makeSound();
-
-            if (animal instanceof Lion lion) {
-                lion.run();
-            } else if (animal instanceof Wolf wolf) {
-                wolf.run();
-            }
-        }
+        zoo.hitJails();
     }
 }
