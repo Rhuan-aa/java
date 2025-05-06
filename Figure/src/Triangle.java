@@ -44,11 +44,12 @@ public final class Triangle extends Figure {
 
     @Override
     public double area() {
-        if (triangleExists()) {
-            double semiPerimeter = getSemiPerimeter();
-            return Math.sqrt(semiPerimeter * (getSemiPerimeter() - a)
-                    * (getSemiPerimeter() - b) * (getSemiPerimeter() - c));
+        if (!triangleExists()) {
+            throw new ArithmeticException("O Triângulo não existe");
         }
-        return -1;
+
+        double semiPerimeter = getSemiPerimeter();
+        return Math.sqrt(semiPerimeter * (getSemiPerimeter() - a)
+                * (getSemiPerimeter() - b) * (getSemiPerimeter() - c));
     }
 }

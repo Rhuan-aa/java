@@ -1,9 +1,10 @@
 import java.time.LocalDate;
+import java.util.UUID;
 
 public final class FullTimeEmployee extends Employee {
     private double monthlySalary;
 
-    public FullTimeEmployee(String id, String name, String jobTitle, LocalDate dateOfEmployment, double monthlySalary) {
+    public FullTimeEmployee(UUID id, String name, String jobTitle, LocalDate dateOfEmployment, double monthlySalary) {
         super(id, name, jobTitle, dateOfEmployment);
         this.monthlySalary = monthlySalary;
     }

@@ -1,12 +1,13 @@
 import java.time.LocalDate;
+import java.util.UUID;
 
 public sealed abstract class Employee permits FullTimeEmployee, PerHourEmployee {
-    private String id;
+    private final UUID id;
     private String name;
     private String jobTitle;
     private LocalDate dateOfEmployment;
 
-    public Employee(String id, String name, String jobTitle, LocalDate dateOfEmployment) {
+    public Employee(UUID id, String name, String jobTitle, LocalDate dateOfEmployment) {
         this.id = id;
         this.name = name;
         this.jobTitle = jobTitle;
@@ -15,12 +16,8 @@ public sealed abstract class Employee permits FullTimeEmployee, PerHourEmployee 
 
     public abstract double salary();
 
-    public String getId() {
+    public UUID getId() {
         return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
     }
 
     public String getName() {

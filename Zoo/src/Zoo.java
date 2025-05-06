@@ -1,23 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
+
 public class Zoo {
-    Animal[] jails = new Animal[10];
-    int index = 0;
+    List<Animal> jails = new ArrayList<>();
 
     public void allocateAnimal(Animal animal) {
-        if (index < 10) {
-            jails[index++] = animal;
-            return;
-        }
-
-        System.out.println("Jaulas cheias !!!");
+        Objects.requireNonNull(animal, "Animal cannot be null");
+        jails.add(animal);
     }
 
     public void hitJails() {
-        for (Animal animal : jails){
-            animal.makeSound();
-
-            if (animal instanceof LandAnimal landAnimal) {
-                landAnimal.run();
-            }
-        }
+        jails.forEach(Animal::makeSound);
+        jails.stream()
+                .filter(animal -> animal instanceof LandAnimal)
+                .map(animal -> (LandAnimal) animal)
+                .forEach(LandAnimal::run);
     }
 }
