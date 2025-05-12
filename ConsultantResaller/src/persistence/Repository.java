@@ -2,8 +2,8 @@ package persistence;
 
 import java.util.Optional;
 
-public interface Repository <T, K>{
+public interface Repository <K,T> {
     void save(T entity);
     void update(T entity);
-    Optional<T> findById(K id);
+    Optional<T> findById(K key);
 }

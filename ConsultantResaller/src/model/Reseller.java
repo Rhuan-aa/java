@@ -12,7 +12,7 @@ public final class Reseller extends Employee {
         return soldValue * 0.15;
     }
 
-    public Consultant promote(){
+    public Consultant promote() {
         return new Consultant(id, name, birthDate, soldValue, consultantInCharge);
     }
 }

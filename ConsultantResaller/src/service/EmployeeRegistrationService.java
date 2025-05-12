@@ -17,7 +17,7 @@ public class EmployeeRegistrationService {
     public void register(String id, String name, LocalDate birthDate, double soldValue, String inCharge){
         Employee maybeInCharge = repo.findById(inCharge).orElse(null);
 
-        if (maybeInCharge == null){
+        if (maybeInCharge == null) {
             repo.save(new Reseller(id, name, birthDate, soldValue, null));
             return;
         }

@@ -1,32 +1,35 @@
 package model;
 
+import exception.EntityAlreadyExistsException;
+
 import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
 public final class Consultant extends Employee {
-    private final Set<Employee> employees;
+    private final Set<Employee> subordinates;
 
     public Consultant(String id, String name, LocalDate birthDate, double soldValue, Consultant consultantInCharge) {
         super(id, name, birthDate, soldValue, consultantInCharge);
-        this.employees = new LinkedHashSet<>();
+        subordinates = new LinkedHashSet<>();
     }
 
     @Override
     public double getCommission() {
-        return employees.stream()
+        return subordinates.stream()
                 .mapToDouble(Employee::getCommission)
                 .map(value -> value * 0.3)
                 .reduce(getSoldValue() * 0.15, Double::sum);
     }
 
-    public void addEmployee(Employee employee){
-        employees.removeIf(e -> e.getId().equals(employee.getId()));
-        employees.add(employee);
+    public void addEmployee(Employee employee) {
+        subordinates.removeIf(e -> e.getId().equals(employee.getId()));
+        subordinates.add(employee);
     }
 
-    public Set<Employee> getEmployees() {
-        return new HashSet<>(employees); // Poderia ser feito com interator
+    public Set<Employee> getSubordinates() {
+        return new HashSet<>();
     }
+
 }
