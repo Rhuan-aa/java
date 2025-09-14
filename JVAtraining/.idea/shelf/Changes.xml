@@ -1,0 +1,16 @@
+<changelist name="Changes" date="1754597651343" recycled="false">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/shelved.patch" />
+  <option name="DESCRIPTION" value="Changes" />
+  <binary>
+    <option name="AFTER_PATH" value="../ProductBES/database.db" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/database.db" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="data/h2-2.3.232.jar" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/h2-2.3.232.jar" />
+  </binary>
+  <binary>
+    <option name="AFTER_PATH" value="data/loja.mv.db" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Changes/loja.mv.db" />
+  </binary>
+</changelist>

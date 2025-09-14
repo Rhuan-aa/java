@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="27101328-7108-4421-9116-e838a213c6a3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/JavaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/src/main/java/basic/JdbcMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/src/main/java/basic/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/src/main/java/statement/MainStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/src/main/java/transaction/MainWithTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/src/main/java/transaction/MainWithoutTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ProductBES/src/main/java/transaction/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/DTOMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/exception/ProductOutOfStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/DatabaseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/SQLiteProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/SQLiteSaleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/Deletable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/Findable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/Registrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/SaleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dao/Updatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dto/PersistedSaleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/persistence/dto/RegisterSaleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/RegisterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/controller/DtoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/model/Team.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/model/exception/PlayerAlreadyHiredException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/DatabaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/SQLitePlayerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/SQLiteTeamDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/Deletable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/Findable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/PlayerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/Registrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/TeamDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/dao/Updatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/player/PersistedPlayerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/player/RegisterPlayerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/team/PersistedTeamDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TeamJDBC/src/main/java/persistence/team/RegisterTeamDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/UniversityManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/exception/EntityAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/model/InstitutionalMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/model/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/model/Researcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/persistence/InMemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/persistence/InstitutionalMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/persistence/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/service/MemberRegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/src/service/MemberReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/__MACOSX/bulletin-app/._covid-bulletin-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/covid-bulletin-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/controller/BulletinManagementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/model/Bulletin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/model/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/DatabaseBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/EntityAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/SQLiteBulletinDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dao/BulletinDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dao/Deletable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dao/Findable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dao/Registrable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dao/Updatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dto/PersistedBulletinDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/persistence/dto/RegisterBulletinDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/services/FilterBulletinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/services/RegisterBulletinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/services/RemoveBulletinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/services/StatisticData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/services/StatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/services/UpdateBulletinService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/br/ifsp/infection/view/BulletinApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsultantResaller/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultantResaller/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsultantResaller/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultantResaller/src/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsultantResaller/src/persistence/InMemoryEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultantResaller/src/persistence/InMemoryEmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsultantResaller/src/service/EmployeeRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultantResaller/src/service/EmployeeRegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsultantResaller/src/service/EmployeeReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsultantResaller/src/service/EmployeeReportService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2yHUgZgyhEFHSzG4LFafrHx9mtt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DatabaseManager.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainDAO.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rhuan/Documents/JavaProjects/ProductDAO&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/rhuan/Documents/JavaProjects/ProductDAO/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="persistence.dto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="DatabaseManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="persistence.DatabaseManager" />
+      <module name="ProductDAO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="persistence.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProductDAO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DatabaseManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27101328-7108-4421-9116-e838a213c6a3" name="Changes" comment="" />
+      <created>1749491105501</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749491105501</updated>
+      <workItem from="1749491106690" duration="1520000" />
+      <workItem from="1749492713269" duration="1841000" />
+      <workItem from="1749494979762" duration="12055000" />
+      <workItem from="1749553549826" duration="725000" />
+      <workItem from="1749557972648" duration="22000" />
+      <workItem from="1749564875056" duration="1019000" />
+      <workItem from="1749580689877" duration="15000" />
+      <workItem from="1749670140172" duration="10278000" />
+      <workItem from="1749746862780" duration="3641000" />
+      <workItem from="1749759100684" duration="3864000" />
+      <workItem from="1749812845646" duration="5004000" />
+      <workItem from="1749829707872" duration="663000" />
+      <workItem from="1749836037013" duration="1407000" />
+      <workItem from="1749925542278" duration="665000" />
+      <workItem from="1750026947136" duration="648000" />
+      <workItem from="1750088436312" duration="9000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aa2d59ac-0fb9-4dc8-b2eb-84ef501800e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/JavaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/database.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/src/main/java/basic/JdbcMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/src/main/java/basic/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/src/main/java/statement/MainStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/src/main/java/transaction/MainWithTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/src/main/java/transaction/MainWithoutTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProductBES/src/main/java/transaction/Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamJDBC.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamJDBC/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TeamJDBC/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/UniversityManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/exception/EntityAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/model/InstitutionalMember.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/model/Professor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/model/Publication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/model/Researcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/persistence/InMemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/persistence/InstitutionalMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/persistence/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/service/MemberRegistrationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UniversityManager/src/service/MemberReportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/calculations/Classifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/calculations/RecommendationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/main/MainWithLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Episode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultantResaller/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultantResaller/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultantResaller/src/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultantResaller/src/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultantResaller/src/persistence/InMemoryEmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultantResaller/src/persistence/InMemoryEmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultantResaller/src/service/EmployeeRegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultantResaller/src/service/EmployeeRegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsultantResaller/src/service/EmployeeReportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ConsultantResaller/src/service/EmployeeReportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenMatch/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/screenMatch/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenMatch/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/screenMatch/src/br/com/rhuanaab/screenmatch/models/Title.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2xzmj6N7oZmXPU9IJvCNFPLbDmK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/rhuan/Documents/JavaProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/rhuan/Documents/JavaProjects/TeamJDBC/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aa2d59ac-0fb9-4dc8-b2eb-84ef501800e0" name="Changes" comment="" />
+      <created>1748949409693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748949409693</updated>
+      <workItem from="1748949412302" duration="1358000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/TeamSQL/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

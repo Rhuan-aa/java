@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2d51007-b818-409f-a362-dc8fc4471daf" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/JavaProjects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UniversityManager/UniversityManager.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/__MACOSX/bulletin-app/._covid-bulletin-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bulletin-app/covid-bulletin-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../counter/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../counter/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../counter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../counter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../counter/src/main/java/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../counter/src/main/java/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/src/main/java/interfaces/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/src/main/java/interfaces/Subscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/src/main/java/model/Enterprise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/src/main/java/model/NewspaperPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../observer-pattern/src/main/java/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/counter/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/counter/InitCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helloworld/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/helloworld/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/src/main/java/com/rhuanaab/rabbitmqcounter/CounterConsumers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/src/main/java/com/rhuanaab/rabbitmqcounter/CounterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/src/main/java/com/rhuanaab/rabbitmqcounter/MessagePublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/src/main/java/com/rhuanaab/rabbitmqcounter/RabbitMQConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rabbitMQCounter/src/main/java/com/rhuanaab/rabbitmqcounter/RabbitMqCounterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/src/main/java/com/rhuanaab/SpringBootCrudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-crud/src/test/java/com/rhuanaab/SpringBootCrudApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/src/main/java/com/rhuanaab/SoftwareEngineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/src/main/java/com/rhuanaab/SoftwareEngineerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/src/main/java/com/rhuanaab/SpringBootDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-demo/src/test/java/com/rhuanaab/SpringBootDemoApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Rhuan-aa&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Rhuan-aa/java.git&quot;,
+    &quot;accountId&quot;: &quot;a4530996-794a-4445-9407-575659cd5f3b&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="32KReQyqUl5SM1INMJyvEXsDfEf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recv.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Send.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/rhuan/Documents/JavaProjects/rabbitMQ/src/main/java/helloworld&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rhuan\Documents\JavaProjects\rabbitMQ\src\main\java\helloworld" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\rhuan\Documents\JavaProjects\rabbitMQ\src\main\java\helloworld" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ctruco.Main" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ctruco.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.Recv" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="helloworld.Send" />
+      <module name="rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="helloworld.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Recv" />
+        <item itemvalue="Application.Send" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2d51007-b818-409f-a362-dc8fc4471daf" name="Changes" comment="" />
+      <created>1757167375263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757167375263</updated>
+      <workItem from="1757167376910" duration="8751000" />
+      <workItem from="1757269699855" duration="5672000" />
+      <workItem from="1757340511087" duration="2478000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
